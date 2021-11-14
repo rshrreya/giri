@@ -1,0 +1,10 @@
+h3{
+    text-align: center;
+    text-emphasis: none;
+    text-decoration : underline ;
+    padding: 25px;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Fruktur';
+    background-color: lemonchiffon;
+}

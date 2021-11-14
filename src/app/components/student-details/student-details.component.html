@@ -1,0 +1,60 @@
+
+
+
+
+<h3>
+   LIST OF STUDENTS
+   
+</h3>
+
+<!-- 
+<button cuikButton withIcon="left">
+    <i cuikIcon="add"></i>New Folder
+</button>
+<button cuikButton="secondary" withIcon="right">
+    Next<i cuikIcon="chevronRight"></i>
+</button>
+<button cuikButton="tertiary" withIcon="left">
+    <i cuikIcon="file"></i>Add File
+</button>    
+<button cuikButton="text-primary" withIcon="left">
+    <i cuikIcon="add"></i>Add Vendor
+</button>
+<button cuikButton="icon-large" withBorder><i cuikIcon="trash"></i></button>
+<button cuikButton="icon-large"><i cuikIcon="edit"></i></button>
+<button cuikButton="icon"><i cuikIcon="download"></i></button> -->
+
+
+<table class="table table-bordered table-hover table-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Height</th>
+            <th>Major</th>
+            <th>Qualification</th>
+            <th>City</th>
+            <th>Country</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of students">
+            <td>{{p.ID}}</td>
+            <td>{{p.FirstName}}</td>
+            <td>{{p.LastName}}</td>
+            <td>{{p.Age}}</td>
+            <td>{{p.Gender}}</td>
+            <td>{{p.Height}}</td>
+            <td>{{p.Major}}</td>
+            <td>{{p.StudentStatus}}</td>
+            <td>{{p.City}}</td>
+            <td>{{p.Country}}</td>
+
+        </tr>
+    </tbody>
+
+</table>
